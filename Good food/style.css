@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fafff2;
+  background-image: url(./assets/images/Rectangle\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav {
+  width: 100%;
+  max-width: 1120px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  margin: 56px auto 0 auto;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 64px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #c6c6c6;
+  text-transform: uppercase;
+}
+
+nav a.active {
+  color: black;
+  font-weight: 700;
+}
+
+nav .icons{
+display: flex;
+gap: 24px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 84px;
+  width: 100%;
+  max-width: 930px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.title{
+display: flex;
+flex-direction: column;
+gap: 24px;
+font-family: 'Poppins', sans-serif;
+max-width: 455px;
+}
+
+.title h1{
+  color: #000;
+font-size: 72px;
+font-family: Poppins;
+font-weight: 700;
+line-height: 120%;
+}
+
+.title h1 span{
+color: #8FCE28;
+}
+
+.title p{
+  max-width: 455px;
+  font-size: 24px;
+}
+
+button{
+background-color: #8FCE28;
+border: none;
+height: 40px;
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-weight: 700;
+color: #fafff2;
+width: 180px;
+text-transform: uppercase;
+}
+
+.dots {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  
+}
+
+.dot{
+  height: 8px;
+  width: 8px;
+  border-radius: 20px;
+  background-color: #c6c6c6;
+}
+
+.dot-active{
+  height: 8px;
+  width: 8px;
+  border-radius: 20px;
+  background-color: #8FCE28;
+}
+
+
