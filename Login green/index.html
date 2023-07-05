@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./style.css">
+
+<body>
+
+  <div class="container">
+
+    <div class="content">
+
+      <div class="content__login">
+
+        <div class="content__avatar">
+          <img src="./Assets/svg/octicon_person-24.svg" alt="avatar">
+        </div>
+
+        <form>
+          <input type="email" id="email" name="email" placeholder="E-mail" required><br><br>
+          
+          <div class="password-container">
+            <input type="password" id="senha" name="senha"  placeholder="Senha" required>
+            <span class="toggle-password" onclick="togglePasswordVisibility()"></span>
+          </div>
+
+          <p>Esqueceu a senha?</p>
+          
+          <button>Entrar</button>
+        </form>
+      
+        <script src="script.js"></script>
+
+        <div class="social">
+          <p>Entrar com suas redes sociais</p>
+
+          <div class="icones">
+            <div class="facebook">
+            <img src="./Assets/img/ic_baseline-facebook.png" alt="facebook">
+          </div>
+          <div class="google">
+            <img src="./Assets/img/ri_google-fill.png" alt="google"></div>
+            <div class="apple">
+            <img src="./Assets/img/ic_baseline-apple.png" alt="apple"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
