@@ -1,0 +1,234 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script type="module" src="./tailwind.config.js"></script>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Khula:wght@400;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+</head>
+
+<body class="font-['Roboto']">
+  <section class="principal lg:container mx-auto flex flex-col h-screen">
+
+    <div class="whatsapp-icon absolute h top-[550px] right-[80px] z-50">
+      <a href="https://api.whatsapp.com/send?phone=SEU-NÚMERO-DE-TELEFONE" target="_blank">
+        <img class="h-10" src="./assets/image/logos_whatsapp-icon.svg" alt="WhatsApp">
+      </a>
+    </div>
+    
+
+    <div class="banner bg-black text-center py-3">
+      <small class="text-[#ffffff] font-['Khula'] text-sm">5% OFF na primeira compra: cupom PRIMEIRA</small>
+    </div>
+
+    <div class="nav-bar lg:container mx-auto px-20 flex justify-between">
+      <img src="./assets/image/logo.svg" alt="logotipo">
+      <ul class="nav-link flex justify-center items-center gap-2 py-5">
+        <li class="links py-2 px-4 font-medium hover:text-orange-500"><a href="#">Sobre nós</a></li>
+        <li class="links py-2 px-4 font-medium hover:text-orange-500"><a href="#">Para cães</a></li>
+        <li class="links py-2 px-4 font-medium hover:text-orange-500"><a href="#">Para gatos</a></li>
+        <li class="links py-2 px-4 font-medium hover:text-orange-500"><a href="#">Blog</a></li>
+        <li class="links py-2 px-4 font-medium hover:text-orange-500"><a href="#">Contato</a></li>
+        <li class="links py-2 px-4 font-medium uppercase hover:text-orange-500 mr-8"><a href="#">faq</a></li>
+
+        <button
+          class="bg-orange-500 text-orange-50 font-medium rounded px-4 py-2 hover:bg-orange-400 active:bg-orange-600">Comprar
+          agora</button>
+      </ul>
+    </div>
+
+    <div
+      class="background bg-[url(./assets/image/background-cachorro.png)]  h-full bg-cover bg-no-repeat flex items-center">
+      <h3 class="text-4xl	leading-snug font-bold pl-20 flex justify-center items-center w-1/2 ">Oferecemos cardápios
+        personalizados e saudáveis a base de alimentação natural para cães e gatos. </h3>
+    </div>
+  </section>
+
+
+  <section class="beneficios flex px-20 py-20 gap-20 justify-center items-center">
+    <div class="beneficios__sem-conservantes flex flex-col justify-center items-center gap-2">
+      <span class="material-symbols-outlined bg-orange-500 text-orange-50 px-2 py-2 rounded-full text-[32px]"> eco
+      </span>
+      <p>Sem conservantes</p>
+    </div>
+
+    <div class="beneficios__sem-conservantes flex flex-col justify-center items-center gap-2">
+      <span class="material-symbols-outlined bg-orange-500 text-orange-50 px-2 py-2 rounded-full text-[32px]"> nutrition
+      </span>
+      <p>Altamente nutritivo</p>
+    </div>
+
+    <div class="beneficios__sem-conservantes flex flex-col justify-center items-center gap-2">
+      <span class="material-symbols-outlined bg-orange-500 text-orange-50 px-2 py-2 rounded-full text-[32px]">
+        gastroenterology </span>
+      <p>Fácil digestão</p>
+    </div>
+
+    <div class="beneficios__sem-conservantes flex flex-col justify-center items-center gap-2">
+      <span class="material-symbols-outlined bg-orange-500 text-orange-50 px-2 py-2 rounded-full text-[32px]">
+        water_drop
+      </span>
+      <p>Previne a desidratação</p>
+    </div>
+  </section>
+  </div>
+
+  <section class="descricao bg-[url(./assets/image/descrição.png)] h-screen bg-cover bg-no-repeat">
+    <div class="descricao__texto flex flex-col py-20 max-w-[357px] mx-auto mr-20">
+      <h5 class="text-xl text-Neutral-950 font-bold font-['Khula'] mb-10">Porque escolher Chef Bob?</h5>
+      <h6 class="text-lg">Ingredientes frescos e nutritivos para cães e gatos, sem grãos transgênicos, promovendo
+        hidratação natural para
+        o seu pet. <br><br>
+        Sem produtos químicos artificiais: aumentamos a durabilidade com embalagem a vácuo, sem conservantes ou
+        corantes. <br><br>
+        Facilita a digestão: ingredientes nobres e altamente digestíveis para que seus pets absorvam melhor os
+        nutrientes. <br><br>
+        Sabor irresistível: nossos alimentos são adorados por pets exigentes, incluindo aqueles com paladares difíceis.
+      </h6>
+    </div>
+  </section>
+
+  <section class="planos flex flex-col justify-center items-center px-20 py-20">
+    <h4 class="text-2xl text-Neutral-950 font-bold font-['Khula'] mb-20">Nossos planos</h4>
+
+    <div class="planos__planos flex gap-6">
+
+      <div
+        class="planos__padrao flex flex-col px-6 py-7 w-[309px] min-h-[480px] outline-gray-200 outline outline-1 rounded-lg">
+        <h5 class="text-xl text-center font-bold">Plano padrão</h5>
+
+        <ul class="flex flex-col mt-10 mb-10 gap-4">
+          <li class="flex gap-4"><span class="material-symbols-outlined text-green-500">
+              eco
+            </span>
+            <p>É montado de acordo com a quantidade de comidinhas que o animal ingere por dia.</p>
+          </li>
+          <li class="flex gap-4"><span class="material-symbols-outlined text-green-500">
+              eco
+            </span>
+            <p>É entregue de forma semanal, quinzenal ou mensal, de acordo com a demanda dos nossos clientes.</p>
+          </li>
+          <li class="flex gap-4"><span class="material-symbols-outlined text-green-500">
+              eco
+            </span>
+            <p>Indicado para cães adultos e saudáveis.</p>
+          </li>
+        </ul>
+
+        <div class="planos__botoes flex flex-col gap-6">
+          <button
+            class="bg-orange-500 text-orange-50 font-medium px-4 py-2 rounded w-full hover:bg-orange-400 active:bg-orange-600">Conheça
+            nosso cardápio</button>
+          <button
+            class="flex gap-2 items-center justify-center px-4 py-2 w-full border-b-2 border-b-black hover:text-opacity-50 font-medium">Pedir
+            pelo
+            whatsapp <img src="./assets/image/logos_whatsapp-icon.svg" alt="logo whatsapp"></button>
+        </div>
+      </div>
+
+
+
+      <div
+        class="plano__especifico flex flex-col px-6 py-8 w-[309px] min-h-[480px] outline-gray-200 outline outline-1 rounded-lg">
+        <h5 class="text-xl text-center font-bold">Plano específico</h5>
+
+        <ul class="flex flex-col mt-10 gap-4">
+          <li class="flex gap-4"><span class="material-symbols-outlined text-green-500">
+              eco
+            </span>
+            <p>É montado de acordo com a indicação de veterinários.</p>
+          </li>
+          <li class="flex gap-4"><span class="material-symbols-outlined text-green-500">
+              eco
+            </span>
+            <p>Ideal para animais que apresentam intolerância a determinados ingredientes ou doenças.</p>
+          </li>
+          <li class="flex gap-4"><span class="material-symbols-outlined text-green-500">
+              eco
+            </span>
+            <p>Pode ser elaborado especialmente para cães e gatos.</p>
+          </li>
+        </ul>
+
+        <button
+          class="flex mt-[100px] gap-2 items-center justify-center px-4 py-2 w-full border-b-2 border-b-black hover:text-opacity-50 font-medium ">Pedir
+          pelo
+          whatsapp <img src="./assets/image/logos_whatsapp-icon.svg" alt="logo whatsapp"></button>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="depoimentos px-20 py-20 bg-gray-50 flex flex-col items-center">
+    <h4 class="text-2xl text-center font-bold">O que dizem nossos clientes?</h4>
+    <div class="depoimentos__pessoas flex flex-row max-w-[744px] gap-6 justify-center items-center py-20 ">
+      <img
+        class="flex-shrink-0 h-[174px] w-[174px] rounded-full object-cover hover:outline outline-2 outline-orange-500"
+        src="./assets/image/1.jpg" alt=""
+        onmouseover="mostrarDepoimento('“Altamente recomendado. Nossos gatos adoram desde o momento em que o apresentamos a eles. Eles não apenas servem comida de qualidade a um ótimo preço, mas também sua atenção aos detalhes, seu serviço e a equipe são extremamente prestativos.” Diego (Kiara, Jhon e Mingau)')">
+      <img class="h-[174px] w-[174px] rounded-full object-cover hover:outline outline-2 outline-orange-500"
+        src="./assets/image/2.jpeg" alt=""
+        onmouseover="mostrarDepoimento('“Fizemos a transição da nossa cadela Lilica para alimentação natural há alguns meses e a diferença foi enorme! Ela beliscava a comida, às vezes comia de tudo e outras vezes quase não tocava. Ela é uma cadela magra, então cada refeição conta.” Sofia (Lilica)')">
+      <img class="h-[174px] w-[174px] rounded-full object-cover hover:outline outline-2 outline-orange-500"
+        src="./assets/image/3.jpeg" alt=""
+        onmouseover="mostrarDepoimento('“Eu realmente acredito na alimentação natural para meus animais de estimação, costumava fazer isso sozinha, mas atualmente não tenho tempo para preparar as refeições, então esta é a melhor opção. O Brad  adorou!” Juliana (Brad)')">
+      <img class="h-[174px] w-[174px] rounded-full object-cover hover:outline outline-2 outline-orange-500"
+        src="./assets/image/4.jpeg" alt=""
+        onmouseover="mostrarDepoimento('“Meu cãozinho ama as refeições do Chef Bob. Antes ele comia ração seca e nunca demonstrou entusiasmo por comer. Quando a nossa veterinária recomendou alimentação natural, ele passou a amar. Sempre que é hora de comer ele dá pulinhos e voltihas rsrsrs.” Giovanna (Alfredo)')">
+    </div>
+
+    <script src="script.js"></script>
+
+
+    <div class="depoimentos__comentarios flex flex-col max-w-[744px] justify-center items-center">
+      <div id="depoimento" class="italic text-center">“Altamente recomendado. Nossos gatos adoram desde o momento em que
+        o apresentamos a eles. Eles não apenas servem comida de qualidade a um ótimo preço, mas também sua atenção aos
+        detalhes, seu serviço e a equipe são extremamente prestativos.” Diego (Kiara, Jhon e Mingau)</div>
+    </div>
+  </section>
+
+  <section class="newsletter flex flex-col px-20 py-20 bg-green-50">
+    <p class="text-lg font-bold mb-10">Ganhe 5% OFF na primeira compra e fique por dentro das nossas <br> novidades e
+      promoções.</p>
+    <form class="flex shrink gap-6 h-full">
+      <input class="bg-[#ffffff] px-4 py-2 rounded outline outline-1 outline-gray-100 text-sm placeholder-gray-200 focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500
+      disabled:bg-slate-50 text-gray-500 min-w-[421px]" type="email" id="email" name="email" placeholder="E-mail" required>
+      <input class="bg-[#ffffff] px-4 py-2 rounded outline outline-1 outline-gray-100 text-sm placeholder-gray-200 focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500
+      disabled:bg-slate-50 text-gray-500 min-w-[421px]" type="text" id="nome" name="nome" placeholder="Seu nome" required>
+      <input
+        class="bg-green-500 text-green-100 font-medium text-sm px-4 py-2 rounded hover:bg-green-400 active:bg-green-600 min-w-[135px] cursor-pointer"
+        type="submit" value="Enviar">
+    </form>
+
+    <form class="flex gap-2 mt-2">
+      <input type="checkbox" name="preferencia1" value="Opção 1"> Gato
+      <input type="checkbox" name="preferencia2" value="Opção 2"> Cachorro
+    </form>
+  </section>
+
+  <footer class="flex px-20 py-6 bg-green-950 justify-between">
+    <img src="./assets/image/logobranco.svg" alt="logotipo">
+
+    <div class="redes-sociais flex gap-2">
+      <img class="cursor-pointer" src="./assets/image/mdi_instagram.svg" alt="logo instagram">
+      <img class="cursor-pointer" src="./assets/image/ic_baseline-facebook.svg" alt="logo facebook">
+      <img class="cursor-pointer" src="./assets/image/ic_baseline-tiktok.svg" alt="logo tiktok">
+      <img class="cursor-pointer" src="./assets/image/mdi_youtube.svg" alt="logo youtube">
+    </div>
+  </footer>
+</body>
+
+</html>
