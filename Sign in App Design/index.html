@@ -1,0 +1,63 @@
+<!doctype html>
+<htm lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="./tailwind.config.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script></script>
+
+    <title>Template</title>
+  </head>
+
+  <body class="bg-slate-200 md:container md:mx-auto flex justify-center items-center h-screen">
+    <div class="flex flex-col	items-center justify-center px-10 py-20 rounded-2xl	shadow-md bg-white font-sans	">
+      <div class="text-xl	font-bold	">Welcome Back</div>
+      <div class="text-slate-500 mb-4">Lets sign in to start your journey</div>
+
+      <form class="flex flex-col gap-4 w-full" action="" method="get">
+        <input class="border-solid	border-slate-300	border-2	rounded px-4 py-2" type="email" name="email" id="email"
+          placeholder="Username or e-mail">
+        <input class="border-solid	border-slate-300	border-2	rounded px-4 py-2" type="password" name="password"
+          id="password" placeholder="Password">
+      </form>
+
+      <div class="remember flex gap-1 mt-1 mb-4 ml-auto">
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <label class="text-[12px] font-bold" for="checkbox">Remember me</label>
+      </div>
+
+      <button
+        class="bg-black	text-white flex justify-center rounded w-full px-4 py-2 hover:bg-neutral-600 delay-100	duration-100">Sign
+        in</button>
+
+      <div class="text-slate-500	mt-4 mb-4">Or sign in</div>
+
+      <ul class="flex items-center gap-4">
+        <li class="border-2	border-slate-300	px-8 py-2 rounded">
+          <a href="#">
+            <img class="h-[24px]" src="./assets/facebook_5968764.png" alt="">
+          </a>
+        </li>
+        <li class="border-2	border-slate-300	px-8 py-2 rounded">
+          <a href="#">
+            <img class="h-[24px]" src="./assets/google_300221.png" alt="">
+          </a>
+        </li>
+        <li class="border-2	border-slate-300	px-8 py-2 rounded">
+          <a href="#">
+            <img class="h-[24px]" src="./assets/twitter_5969020.png" alt="">
+          </a>
+        </li>
+      </ul>
+
+      <div class="text-slate-500 mt-4">Already have an account, <a class="text-black	font-bold" href="#">Sign Up
+          Here</a></div>
+    </div>
+  </body>
+
+  </html>
